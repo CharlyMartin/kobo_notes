@@ -2,7 +2,7 @@ require "sqlite3"
 require "pry-byebug"
 require_relative "methods"
 
-DB = SQLite3::Database.new("KoboReader.sqlite")
+DB = SQLite3::Database.new("input/KoboReader.sqlite")
 DB.results_as_hash = true
 
 
